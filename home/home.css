@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+}
+
+#search.container {
+	max-width: 300px;
+}
+
+#bodytitle {
+	margin-top: 150px;
+}
+
+#navtitle {
+	color: rgba(0, 0, 0, 0.87);
+}
