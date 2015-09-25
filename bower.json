@@ -1,0 +1,23 @@
+{
+  "name": "MaterialShimmieDesign",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dali99/Material-Shimmie-Thmeme",
+  "authors": [
+    "Daniel Løvbrøtte Olsen <daniel.olsen99@gmail.com>"
+  ],
+  "description": "Material Design theme for Shimmie",
+  "keywords": [
+    "material"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.1"
+  }
+}
