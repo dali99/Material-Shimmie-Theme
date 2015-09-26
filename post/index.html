@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Shimmie Homepage</title>
-
+	<title>Shimmie</title>
 	<!-- Material icons-->
+
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Compiled and minified CSS for materialize.css-->
   	<link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="../main.css">
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="post.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
 
+<!-- Navbar -->
 <nav class="indigo">
-	<ul class="right hide-on-med-and-down">
-	</ul>
 	<ul id="slide-out" class="side-nav">
 		<li><h2 class="darktext">Shimmie</h2></li>
-		<li><a href="../post">Posts</a></li>
+		<li><a href="#!">Posts</a></li>
 		<li><a href="#!">Comments</a></li>
 		<li><a href="#!">Tags</a></li>
 		<li><a href="#!">Documentation</a></li>
@@ -27,30 +26,10 @@
 	<a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
 </nav>
 
-<h1 id="bodytitle" class="centered title">Shimmie</h1>
-
-<div class="centered container" id="search">
-	<form action="./index.php?q=/post/list" method="GET" class="col s12">
-		<div class="input-field">
-    		<input id="search" type="search" required>
-    		<label for="search"><i class="material-icons">search</i></label>
-    		<i class="material-icons">close</i>
-    	</div>
-	</form>
-</div>
-
-
-<div id="counter">
-	<img src="counters/default/1.gif">
-	<img src="counters/default/3.gif">
-	<img src="counters/default/3.gif">
-	<img src="counters/default/7.gif">
-</div>
-
 
 
 <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="../bower_components/materialize/dist/js/materialize.min.js"></script>
-<script type="text/javascript" src="inithome.js"></script>
+<script type="text/javascript" src="../home/inithome.js"></script>
 </body>
 </html>
