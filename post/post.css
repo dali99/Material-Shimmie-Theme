@@ -5,3 +5,7 @@ input#search {
 li#search {
 	width: 500px;
 }
+
+#slide-out > li > a {
+	padding: 0;
+}
