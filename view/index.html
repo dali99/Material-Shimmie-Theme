@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shimmie</title>
+
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS for materialize.css-->
+  	<link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link rel="stylesheet" type="text/css" href="view.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="indigo">
+	<ul id="slide-out" class="side-nav">
+		<li><a href="../home"><h2 class="darktext">Shimmie</h2></a></li>
+		<li><a href="#!">Posts</a></li>
+		<li><a href="#!">Comments</a></li>
+		<li><a href="#!">Tags</a></li>
+		<li><a href="#!">Documentation</a></li>
+		<li><a href="#!">My Profile</a></li>
+		<li><a href="#!">Help</a></li>
+		<li><a href="#!">Private Messages<span class="new badge">4</span></a></li>
+	</ul>
+	<a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+	<div class="left">
+		<form id="search">
+			<div class="input-field">
+				<input type="search" id="search-field" class="field" required>
+				<label for="search-field"><i class="mdi-action-search"></i></label>
+				<i class="mdi-navigation-close close"></i>
+			</div>
+		</form>
+	</div>	
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col s12 m12">
+			<div class="card">
+				<div class="card-image">
+					<img src="../post/images/DSC06813.JPG">
+				</div>
+				<div class="card-content">
+					<p id="posted">Posted by:</p>
+					<div id="author" class="chip"><img src="Dandellion.png">Dali99</div>
+					<p></p>
+					<p id="tags">Tags:</p>
+					<div class="chip">Green</div>
+					<div class="chip">Leaf</div>
+					<div class="chip">Photo</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../bower_components/materialize/dist/js/materialize.min.js"></script>
+<script type="text/javascript" src="../navbar.js"></script>
+</body>
+</html>
