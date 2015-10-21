@@ -7,11 +7,6 @@
 	margin-right: 5px;
 }
 
-.card-image {
-	max-height: 200px;
-	width: auto;
-}
-
 .centered, #counter {
 	text-align: center;
 }
