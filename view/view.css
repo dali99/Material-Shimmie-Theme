@@ -1,7 +1,7 @@
-#author {
+.chip {
 	margin-bottom: 5px;
 }
 
-#posted, #tags {
+#posted, #tags, #source {
 	display: inline;
 }
