@@ -43,8 +43,26 @@
 	<div class="mdl-layout-spacer"></div>
 </div>
 
-
+<div class="mdl-typography--text-center">
+	<img src="counters/default/1.gif">
+	<img src="counters/default/8.gif">
+	<img src="counters/default/9.gif">
+	<img src="counters/default/6.gif">
+	<img src="counters/default/5.gif">
+	<img src="counters/default/9.gif">
+	<img src="counters/default/4.gif">
+	<img src="counters/default/5.gif">
+	<img src="counters/default/9.gif">
+	<img src="counters/default/8.gif">
+	<img src="counters/default/7.gif">
+	<img src="counters/default/6.gif">
+	<img src="counters/default/5.gif">
+	<img src="counters/default/6.gif">
+	<img src="counters/default/8.gif">
+	<img src="counters/default/0.gif">
+	<img src="counters/default/1.gif">
 </div>
+
 </main>
 </div>
 
