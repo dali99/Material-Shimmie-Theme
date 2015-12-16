@@ -42,7 +42,6 @@
 	</div>
 	<div class="mdl-layout-spacer"></div>
 </div>
-
 <div class="mdl-typography--text-center">
 	<img src="counters/default/1.gif">
 	<img src="counters/default/8.gif">
@@ -63,6 +62,10 @@
 	<img src="counters/default/1.gif">
 </div>
 
+<div class="mdl-typography--text-center">
+	<p><a href="#">Contact</a> - Serving 18,965,945,987,656,801 posts - Running <a href="//github.com/shish/shimmie2">Shimmie</a></p>
+</div>
+</div>
 </main>
 </div>
 
